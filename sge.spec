@@ -6,7 +6,7 @@ Release:	1
 License:	LGPL
 Group:		X11/Libraries
 Source0:	http://home.swipnet.se/cal_home/sge/files/%{name}%{version}.tar.gz
-# Source0-md5:	-
+# Source0-md5:	42e6c4b044cafa1858bbeb509166e0c6
 Patch0:		%{name}-rpmcflags.patch
 Patch1:		%{name}-sdl_image.patch
 URL:		http://home.swipnet.se/cal_home/sge/
@@ -20,25 +20,29 @@ SGE is a high level graphics library for SDL.
 %description -l pl
 SGE jest wysokopoziomow± bibliotek± graficzn± dla SDL.
 
-
 %package devel
-Summary:	header files for SGE
-Summary(pl):	pliki nag³ówkowe SGE
+Summary:	Header files for SGE
+Summary(pl):	Pliki nag³ówkowe SGE
 Group:		X11/Development/Libraries
 
 %description devel
+This packege contains header files for SGE library.
 
 %description devel -l pl
+Ten pakiet zawiera pliki nag³ówkowe biblioteki SGE.
 
 %package static
-Summary:	files to link SGE applications statically
-Summary(pl):	pliki do statycznego linkowania aplikacji SGE
+Summary:	Files to link SGE applications statically
+Summary(pl):	Pliki do statycznej konsolidacji aplikacji SGE
 Group:		X11/Development/Libraries
 
 %description static
+This packege contains files necessary to link SGE applications
+statically.
 
 %description static -l pl
-
+Ten pakiet zawiera pliki niezbêdne do statycznej konsolidacji
+aplikacji SGE.
 
 %prep
 %setup -q -n %{name}%{version}
