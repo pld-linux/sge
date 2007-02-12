@@ -1,5 +1,5 @@
 Summary:	SDL Graphics Extension
-Summary(pl):	Rozszerzenie graficzne dla SDL
+Summary(pl.UTF-8):   Rozszerzenie graficzne dla SDL
 Name:		sge
 Version:	020904
 Release:	1
@@ -17,31 +17,31 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 SGE is a high level graphics library for SDL.
 
-%description -l pl
-SGE jest wysokopoziomow± bibliotek± graficzn± dla SDL.
+%description -l pl.UTF-8
+SGE jest wysokopoziomowÄ… bibliotekÄ… graficznÄ… dla SDL.
 
 %package devel
 Summary:	Header files for SGE
-Summary(pl):	Pliki nag³ówkowe SGE
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe SGE
 Group:		X11/Development/Libraries
 
 %description devel
 This packege contains header files for SGE library.
 
-%description devel -l pl
-Ten pakiet zawiera pliki nag³ówkowe biblioteki SGE.
+%description devel -l pl.UTF-8
+Ten pakiet zawiera pliki nagÅ‚Ã³wkowe biblioteki SGE.
 
 %package static
 Summary:	Files to link SGE applications statically
-Summary(pl):	Pliki do statycznej konsolidacji aplikacji SGE
+Summary(pl.UTF-8):   Pliki do statycznej konsolidacji aplikacji SGE
 Group:		X11/Development/Libraries
 
 %description static
 This packege contains files necessary to link SGE applications
 statically.
 
-%description static -l pl
-Ten pakiet zawiera pliki niezbêdne do statycznej konsolidacji
+%description static -l pl.UTF-8
+Ten pakiet zawiera pliki niezbÄ™dne do statycznej konsolidacji
 aplikacji SGE.
 
 %prep
